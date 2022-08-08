@@ -14,7 +14,7 @@ void PrintArray(string[] array)
 
 string[] array1 = new string[4] {"hello","2", "world", ":-)"};
 string[] array2 = new string[array1.Length];
-void SecondArrayWithIF(string[] array1, string[] array2)
+void ArrayFormation(string[] array1, string[] array2)
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
@@ -27,5 +27,5 @@ void SecondArrayWithIF(string[] array1, string[] array2)
     }
 }
 
-SecondArrayWithIF(array1, array2);
+ArrayFormation(array1, array2);
 PrintArray(array2);
